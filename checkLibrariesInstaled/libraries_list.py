@@ -3,5 +3,5 @@ libraries = [
     "streamlit",
     "watchdog",
     "Pillow",
-    #"pip"
+    "pip"
 ]
