@@ -1,14 +1,15 @@
+# -*- coding: utf-8 -*-
 import streamlit
 from PIL import Image
 
 
 
 if streamlit.sidebar.button("Home"):
-    image = Image.open('~/streamlit_presentation/streamlitPages/images/home.jpg')
+    image = Image.open('/images/home.jpg')
     streamlit.image(image, width=1550)
 
 if streamlit.sidebar.button("Quem sou eu?"):
-    image = Image.open('~/streamlit_presentation/streamlitPages/images/whoami.jpg')
+    image = Image.open('/images/whoami.jpg')
     streamlit.image(image, width=1550)
 
 if streamlit.sidebar.button("O que é Streamlit?"):
@@ -17,13 +18,13 @@ if streamlit.sidebar.button("O que é Streamlit?"):
     streamlit.header("Tudo em Python. Tudo de graça.")
     streamlit.header("Nenhuma experiência de front-end necessário.")
 
-    streamlit.image("~/streamlit_presentation/streamlitPages/images/exemple.gif", width=1100)
+    streamlit.image("/images/exemple.gif", width=1100)
 
 if streamlit.sidebar.button("Os 3 princípios basilares"):
     # title 1
     streamlit.title("Abraçar scripts")
     streamlit.header("Construa um aplicativo em algumas linhas de código com a API simes. Em seguida, veja-o ser atualizado automaticamente à medida que salva o arquivo de origem de forma iterativa.")
-    image1 = Image.open('~/streamlit_presentation/streamlitPages/images/exempleCode.jpg')
+    image1 = Image.open('/images/exempleCode.jpg')
     streamlit.image(image1)
 
 
@@ -76,11 +77,11 @@ if streamlit.sidebar.button("Os 3 princípios basilares"):
     # title 3
     streamlit.title("Implante instantaneamente")
     streamlit.header("Use o recurso de compartilhamento apenas para conidados do Stramlit para compartilhar, gerenciar e colaborar em seus aplicativos sem esforço.")
-    image3 = Image.open('~/streamlit_presentation/streamlitPages/images/howDeploy.jpg')
+    image3 = Image.open('/images/howDeploy.jpg')
     streamlit.image(image3)
 
     streamlit.header("Heroku Deploy")
-    image4 = Image.open('~/streamlit_presentation/streamlitPages/images/heroku_deploy_process.png')
+    image4 = Image.open('/images/heroku_deploy_process.png')
     streamlit.image(image4)
 
 
@@ -107,18 +108,18 @@ if streamlit.sidebar.button("Relatos de quem usa em Produção"):
 
 
 if streamlit.sidebar.button("Compatível com"):
-    image_bokeh = Image.open('~/streamlit_presentation/streamlitPages/images/bokeh.png')
-    image_altair = Image.open('~/streamlit_presentation/streamlitPages/images/altair.png')
-    image_PyTorch = Image.open('~/streamlit_presentation/streamlitPages/images/pytorch.png')
-    image_OpenCV = Image.open('~/streamlit_presentation/streamlitPages/images/opencv.png')
-    image_Deck = Image.open('~/streamlit_presentation/streamlitPages/images/deck-gl.png')
-    image_Pandas = Image.open('~/streamlit_presentation/streamlitPages/images/pandas.png')
-    image_vega_lite = Image.open('~/streamlit_presentation/streamlitPages/images/vega-lite.png')
-    image_matplotlib = Image.open('~/streamlit_presentation/streamlitPages/images/matplotlib.png')
-    image_numPy = Image.open('~/streamlit_presentation/streamlitPages/images/numpy.png')
-    image_learn = Image.open('~/streamlit_presentation/streamlitPages/images/scikitlearn.png')
-    image_tensorflow = Image.open('~/streamlit_presentation/streamlitPages/images/tensorflow.png')
-    image_plotly = Image.open('~/streamlit_presentation/streamlitPages/images/keras.png')
+    image_bokeh = Image.open('/images/bokeh.png')
+    image_altair = Image.open('/images/altair.png')
+    image_PyTorch = Image.open('/images/pytorch.png')
+    image_OpenCV = Image.open('/images/opencv.png')
+    image_Deck = Image.open('/images/deck-gl.png')
+    image_Pandas = Image.open('/images/pandas.png')
+    image_vega_lite = Image.open('/images/vega-lite.png')
+    image_matplotlib = Image.open('/images/matplotlib.png')
+    image_numPy = Image.open('/images/numpy.png')
+    image_learn = Image.open('/images/scikitlearn.png')
+    image_tensorflow = Image.open('/images/tensorflow.png')
+    image_plotly = Image.open('/images/keras.png')
 
     streamlit.image(image_altair, width=100)
     streamlit.title("")

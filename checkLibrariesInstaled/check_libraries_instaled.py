@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 from checkLibrariesInstaled.libraries_list import libraries
 
