@@ -11,7 +11,8 @@ def libraries_instaled():
         ### Check library
         #print(f"""\n\n\n------------------------------------------------------------------------------------------------\nVerificando se a biblioteca {library} encontra-se instalada e faz Upgrade da versao mais recente\n------------------------------------------------------------------------------------------------""")
         if library == "pip":
-            os.system(f"python install --upgrade pip")
+            #os.system(f"python install --upgrade pip")
+            pass
         else:
             os.system(f"pip install {library} -U")
         #print(f"""\n\n\n------------------------------------------------------------------------------------------------\nA biblioteca {library} encontra-se instalada e atualizada\n------------------------------------------------------------------------------------------------""")
