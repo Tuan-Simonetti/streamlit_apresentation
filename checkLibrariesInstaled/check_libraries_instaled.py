@@ -3,7 +3,7 @@ from checkLibrariesInstaled.libraries_list import libraries
 
 
 def execute_home_page():
-    os.system("streamlit run streamlitPages/mainPage.py")
+    os.system("streamlit run ./streamlitPages/mainPage.py")
 
 def libraries_instaled():
     for library in libraries:
